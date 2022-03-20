@@ -1,0 +1,241 @@
+html { 
+  scroll-behavior:smooth; 
+}
+/* navbar-customization */
+.navbar-custom{
+    background-color :#32144C;
+    color: white;
+  
+}
+ul li a b{
+    color:#FFE843;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:none;
+}
+ul li a b:hover{
+    color:#FAA95A;
+}
+/* logo customization */
+.icon{
+  filter:invert(54%) sepia(23%) saturate(4428%) hue-rotate(318deg) brightness(89%) contrast(89%);
+  
+}
+.i-filter{
+  filter:invert(54%) sepia(23%) saturate(4428%) hue-rotate(318deg) brightness(89%) contrast(89%);
+  
+}
+/* home page */
+#home{
+    background-color:#8BB3E8;
+    padding-bottom: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+    
+}
+.d-icon{
+    margin-left: 10%;
+}
+
+.flex-item-one{
+    
+    /* border: black solid; */
+    margin-top: 20vh;}
+.flex-item-two{
+   
+    
+    /* border: black solid; */
+}
+.flex-item-two img{
+    width:30vw;
+    margin-top: 18vh;
+    margin-left: 10vw;
+
+}
+.font-c-2{
+    color:#AD1872;
+    font-weight: bold;
+    
+}
+
+.font-c-3{
+    color:#32144C;
+    font-weight: bolder;
+    font-size: 2.5vw;
+}
+a{
+    color: mediumseagreen;
+  }
+  .c1{
+    display: inline-block;
+   
+  }
+  .c2{
+    display: inline-block;
+  }
+  .c3{
+    display: inline-block;
+  }
+  .c4{
+    display: inline-block;
+  }
+  h1{
+    font-size: 4vh;
+    
+  }
+  h1 .type{
+      color: #32144C;
+      font-weight: bold;
+      /* font-size: 2vw; */
+      overflow: hidden;
+      border-right: .14em solid #FAA95A;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 3s steps(25, end) forwards;
+       
+
+  }
+  h1 .type2{
+      color: #AD1872;
+      font-weight: bold;
+      /* font-size: 2vw; */
+      overflow: hidden;
+      border-right: .15em solid #FAA95A;
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 3s steps(25, end) forwards;
+      animation-delay: 2s;
+      
+  }
+  h1 .type3{
+    color: #32144C;
+    font-weight: bold;
+      /* font-size: 2vw;  */
+      overflow: hidden;
+      border-right: .15em solid #FAA95A; 
+      white-space: nowrap; 
+      width: 0;
+      animation: 
+        typing 3s steps(25, end) forwards;
+      animation-delay: 3s;
+
+      
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+/* profile css */
+#profile{
+    background-color:#FFE843;
+    padding-bottom: 35vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 35vh;
+}
+.pc1{
+    color:#32144C;
+    font-weight: bold;
+    font-size: 4vw 4vh;
+}
+.profile-container-one {
+    color:#AD1872;
+    padding: 5vh;
+    
+}
+.about-me-container {
+  color:#AD1872;
+  padding: 5vh;
+  border: #8BB3E8  4px solid;
+  border-style:dotted;
+  border-radius: 10vh;
+}
+/* skillset css */
+#skillset{
+    background-color:#8BB3E8;
+    padding-bottom: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+}
+
+/* gallery css */
+#gallery{
+  background-color:#FFE843;
+    padding-bottom: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+}
+.carousel-item{
+  /* height: 93vh; */
+  /* min-height:250px; */
+  background: no-repeat scroll center scroll;
+  -webkit-background-size:cover;
+  background-size: cover;
+  height: 80vh;
+  width: 80vw;
+}
+.carousel-item::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.6;
+}
+.carousel-caption{
+  
+  font-family: bold;
+  text-shadow:  2px 2px #000000;}
+/* contact css */
+#contact{
+    background-color:#8BB3E8;
+    
+    padding-bottom: 30vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 30vh;
+}
+
+ .social-icon{
+   margin-top: 5vh;
+   height: 20vh;
+   width: 15vw;
+   
+ }
+.prog-icon{
+  
+  height: 10vh;
+  width: 10vw;
+  margin-right: 1vw;
+  }
+.pc2{
+  color:#AD1872;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.prog-icon-one{
+ 
+  height: 15vh;
+  width: 15vw;
+  margin-right: 2vw;
+}
+footer{
+  background-color: #32144C;
+  color: #FFE843;
+ font-style: italic;
+ font-weight: 100;
+}
+.heart{
+  color:rgb(207, 52, 78);
+}
